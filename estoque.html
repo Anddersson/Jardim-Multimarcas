@@ -7,6 +7,54 @@
     <head>
   
 
+
+        <style type="text/css">
+            .overlay {
+                display: none;
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                z-index: 1001;
+                -moz-opacity: 0.8;
+                opacity: .80;
+                filter: alpha(opacity=80);
+            }
+     
+            .conteudo {
+                display: none;
+                position: absolute;
+                top: 25%;
+                left: 25%;
+                width: 50%;
+                height: 50%;
+                padding: 16px;
+                border: 16px solid #C5D1E2;
+                background-color: white;
+                z-index: 1002;
+                overflow: auto;
+            }
+        </style>
+        <script type="text/javascript">
+        
+            function Abrir()
+            {
+                document.getElementById('light').style.display= 'block';
+                document.getElementById('fade').style.display='block';		
+            }
+            
+            function Fechar()
+            {
+                document.getElementById('light').style.display='none';
+                document.getElementById('fade').style.display='none';		
+            }		
+        </script>
+
+
+
+
                 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -100,7 +148,7 @@
 							<li >
 									<div class="row">
 										<div class="mid-part-left col-sm-3 col-xs-12">
-											<a href="/estoque/veiculo/22429474/toyota_corolla_2.0-xei-16v-flex-4p-automatico" title="ver r&#xC3;&#xA1;pido">
+											<a href="testeimage.html" title="ver r&#xC3;&#xA1;pido">
 												<img src="image/CIVIC.jpeg" rel="photo" data-width="280" data-height="190" class="img-responsive"/><span>7 Fotos</span>
 											</a>
 										</div>
