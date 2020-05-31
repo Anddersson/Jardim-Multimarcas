@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galeria de Imagens</title>
+	<style type="text/css">
+		img{
+			border-radius: 8px;
+			background: black;
+			padding: 16px;
+			border: 1px solid yellow;
+		}
+	</style>
+
+	<script >
+		function exibir(imagens){
+			//Informamos o ID da tag IMG que irá exibir a galeria	
+			var imagem = document.getElementById("galeria");
+			//Mostrar qual imagem foi escolhida
+			switch(imagens){
+				case "1":
+				imagem.src="image/AGILE.jpeg";
+				
+				break;
+
+				case "2":
+				imagem.src="image/capa.jpeg";
+				
+				break;
+
+				case "3":
+				imagem.src="image/CIVIC.jpeg";
+				
+				break;
+
+				case "4":
+				imagem.src="image/CORSA.jpeg";
+				
+				break;
+
+				case "5":
+				imagem.src="image/CRV.jpeg";
+				
+				break;
+			}
+
+		}
+	</script>
+</head>
+<body>
+	<table width="672"  align="center">
+		<tr>
+		 	<td colspan="5" align="center"><img src="image/AGILE.jpeg" name="galeria" width="680" height="500" id="galeria" /></td>
+		</tr>
+		
+		<tr>
+			<td width="140"><img src="image/AGILE.jpeg" width="100" height="90" onMouseOver="javascript:exibir('1');"></td>
+			<td width="140"><img src="image/capa.jpeg" width="100" height="90" onMouseOver="javascript:exibir('2');"></td>
+			<td width="140"><img src="image/CIVIC.jpeg" width="100" height="90" onMouseOver="javascript:exibir('3');"></td>
+			<td width="140"><img src="image/CORSA.jpeg" width="100" height="90" onMouseOver="javascript:exibir('4');"></td>
+			<td width="140"><img src="image/CRV.jpeg" width="100" height="90" onMouseOver="javascript:exibir('5');"></td>	
+		</tr>
+
+
+    </table>	
+    
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
+
+</body>
+</html>
+
