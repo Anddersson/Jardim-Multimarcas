@@ -1,0 +1,31 @@
+.logo{
+    text-align: left;
+    margin-top: -35px;
+    width: 100%;
+    background-color: white;
+}
+.menu {
+    
+    background-color: #333;
+    position: fixed; 
+    top: 200px; 
+    width: 100%; /* Full width */
+    margin-left: -10px;
+    padding: 15px 25px;
+    text-align: center;   
+}
+.menu a{
+    
+    color: white;
+    text-align: center;
+    padding: 10px 25px ;
+    text-decoration: none;
+    font-size: larger;  
+}
+.menu a:hover {
+    background: #333;
+    color: rgb(175, 170, 170);
+
+
+   
+}
