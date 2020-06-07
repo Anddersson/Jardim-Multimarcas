@@ -1,8 +1,9 @@
-.logo{
-    text-align: left;
-    margin-top: -35px;
-    width: 100%;
+.img_logo{
+    align-items: center;
     background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 .menu {
     background-color: #333;
