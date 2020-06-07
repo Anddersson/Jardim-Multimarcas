@@ -41,15 +41,12 @@ body{
     margin-left: 270px;
 }
 .texto_02{
-    margin-top: -130px;
-    margin-left: 800px;
-}
-.texto_03{
     margin-top: -160px;
-    margin-left: 270px;
-}
-.texto_04{
-    margin-top: -150px;
     margin-left: 800px;
 }
 
+button{
+    width: 10%;
+    height: 5%;
+
+}
