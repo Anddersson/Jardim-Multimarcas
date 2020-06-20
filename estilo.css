@@ -51,3 +51,27 @@ button{
     height: 5%;
 
 }
+
+.mapa{
+
+    width: 50%;
+    height: 50%;
+    margin-left: 70%;
+    padding-top: 5%;
+}
+
+.imageroda{
+    width: 30%;
+    height: 30%;
+    margin-left: 30%;
+    
+}
+
+.color2{
+    background: black;
+}
+
+.corletra{
+    color: red;
+    font-weight: bold;
+}
